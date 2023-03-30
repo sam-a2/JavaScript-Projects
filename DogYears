@@ -1,0 +1,25 @@
+// variable storing age in human years
+const myAge = 23;
+
+// variable storing first 2 years of a dog's life
+let earlyYears = 2;
+//calculating early years in dog years
+earlyYears *= 10.5;
+
+//variable for later years of a dog's life
+let laterYears = myAge - 2;
+
+//calculating later years in dog years
+laterYears *= 4;
+
+//converting human age to dog years
+let myAgeInDogYears = earlyYears + laterYears
+
+//person's name in all lowercase
+let myName = 'Sollux'.toLowerCase()
+
+//.log(earlyYears);
+//console.log(laterYears);
+
+//statement printing out name, human age and dog age 
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
