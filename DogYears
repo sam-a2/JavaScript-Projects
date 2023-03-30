@@ -1,3 +1,5 @@
+//A program that converts between human and dog years
+
 // variable storing age in human years
 const myAge = 23;
 
